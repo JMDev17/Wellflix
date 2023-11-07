@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="responsividade.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+    <title>Movies</title>
+</head>
+<body>
+    <header>
+    <a href="#" class="logo">Wellflix</a>
+    <div class="toggle-menu"><i class='bx bx-menu' ></i></div>
+      
+    <nav>
+        <ul class="navlinks">
+            <li><a href="#" class="item-menu">Home</a></li>
+            <li><a href="#Movies" class="item-menu">Filmes</a></li>
+            <li><a href="#Em-Breve" class="item-menu">Em Breve</a></li>
+            <li><a href="#infos" class="item-menu">Recomendações</a></li>
+        </ul>
+    </nav>
+    <div class="search">
+        <input type="text" placeholder="Buscar filme...">
+        <i class='bx bx-search-alt-2' ></i>
+    </div>
+    </header> 
+     
+    <section class="home swiper area-1" id="home">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide container">
+                <img src="img/The-Godfather-Opening-Scene.jpg" alt="">
+                <div class="home-text">
+                    <h1>O Poderoso Chefão</h1>
+                    <p>A série de filmes The Godfather consiste em três filmes de drama e suspense policial dirigidos por Francis Ford Coppola com base no romance homônimo do ítalo-americano Mario Puzo. A trilogia narra as tramas envolvendo a Família Corleone, umas das mais poderosas famílias da Máfia italiana nos Estados Unidos.</p>
+                    <a href="#" class="btn">Assistir</a>
+                    <a href="#" class="play"><i class='bx bx-play-circle'></i></a>
+                </div>
+              </div>
+               
+              <div class="swiper-slide container">
+                <img src="img/interstellar.png" alt="">
+                <div class="home-text">
+                    <h1>Interestelar</h1>
+                    <p>As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos…</p>
+                    <a href="#" class="btn">Assistir</a>
+                    <a href="#" class="play"><i class='bx bx-play-circle'></i></a>
+                </div>
+              </div>
+
+              <div class="swiper-slide container">
+                <img src="img/batman-cavaleiro-das-trevas.jpg" alt="">
+                <div class="home-text">
+                    <h1>Batman: <br>O Cavaleiro das Trevas</h1>
+                    <p>Batman tem conseguido manter a ordem em Gotham com a ajuda de Jim Gordon e Harvey Dent. No entanto, um jovem e anárquico criminoso, conhecido apenas como Coringa, pretende testar o Cavaleiro das Trevas e mergulhar a cidade em um verdadeiro caos</p>
+                    <a href="#" class="btn">Assistir</a>
+                    <a href="#" class="play"><i class='bx bx-play-circle'></i></a>
+                </div>
+              </div>
+            
+
+            </div>
+    
+
+            <div class="swiper-pagination"></div>
+    </section>
+
+    <section class="movies" id="Movies">
+       <h2 class="m-h2 area-2">Lançamentos da Semana</h2>
+       <div class="container-movies ">
+        <div class="box area-3">
+        <div class="box-img">
+            <img src="img/m1.jpg" alt="">
+        </div>
+         <h3 class="h3-center">Batman: Cavaleiro das Trevas</h3>
+         <span>2h32m | Drama/Ação    </span>
+        </div>
+       <div class="box area-3">
+        <div class="box-img">
+            <img src="img/m2.jpg" alt="">
+        </div>
+         <h3>Som da Liberdade</h3>
+         <span>2h11m | Drama/Crime    </span>
+        </div>
+      
+       <div class="box area-3">
+        <div class="box-img">
+            <img src="img/m3.jpg" alt="">
+        </div>
+         <h3>Titanic</h3>
+         <span>3h14m | Drama   </span>
+        </div>
+       
+       <div class="box area-3">
+        <div class="box-img">
+            <img src="img/m4.jpg" alt="">
+        </div>
+         <h3>Harry Potter</h3>
+         <span>2h32m | Aventura</span>
+        </div>
+       <div class="box area-3">
+        <div class="box-img">
+            <img src="img/m5.jpg" alt="">
+        </div>
+         <h3>Naruto: The Last</h3>
+         <span>1h52 | Aventura</span>
+        </div>
+       
+       <div class="box area-3">
+        <div class="box-img">
+            <img src="img/m6.png" alt="">
+        </div>
+         <h3 class="h3-center">Diário de uma paixão</h3>
+         <span>2h01m | Romance</span>
+        </div>
+        <div class="box area-3">
+            <div class="box-img">
+                <img src="img/m7.jpg" alt="">
+            </div>
+             <h3>Homens de Honra</h3>
+             <span>2h09m | Drama</span>
+            </div>
+            <div class="box area-3">
+                <div class="box-img">
+                    <img src="img/m8.jpg" alt="">
+                </div>
+                <h3>Gênio Indomável</h3>
+                 <span>2h06 | Drama</span>
+                </div>
+                <div class="box area-3">
+                    <div class="box-img">
+                        <img src="img/m9.jpg" alt="">
+                    </div>
+                     <h3>Uma mente brilhante</h3>
+                     <span>2h15m | Drama</span>
+                    </div>
+                    <div class="box area-3">
+                        <div class="box-img">
+                            <img src="img/m10.jpg" alt="">
+                        </div>
+                         <h3 class="h3-center">Como eu era antes de você</h3>
+                         <span>1h50m | Romance</span>
+                        </div>
+                    <div class="box area-3">
+                        <div class="box-img">
+                            <img src="img/m11.jpeg" alt="">
+                        </div>
+                         <h3 class="h3-center">Homen Aranha: Longe de Casa</h3>
+                         <span>2h10m | Aventura</span>
+                        </div>
+                    <div class="box area-3">
+                        <div class="box-img">
+                            <img src="img/m12.jpg" alt="">
+                        </div>
+                         <h3>Resgate do Soldado Ryan</h3>
+                         <span>2h50m | Guerra </span>
+                        </div>
+       </div>
+    </section>
+ 
+   <section class="coming area-4" id="Em-Breve">
+    <h2 class="m-h2">Em Breve</h2>
+
+    <div class="coming-container swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box2">
+                <div class="box-img">
+   <img src="img/c1.jpg" alt="">
+      </div>
+      <h3>Capitão Fantástico</h3>
+                            
+        </div>
+    <div class="swiper-slide box2">
+    <div class="box-img">
+      <img src="img/c2.jpg" alt="">
+         </div>
+         <h3>Eternal Sunshine</h3>
+        </div>
+        <div class="swiper-slide box2">
+       <div class="box-img">
+      <img src="img/c3.jpg" alt="">
+         </div>
+       <h3>A turma da Mônica</h3>
+      </div>
+       <div class="swiper-slide box2">
+        <div class="box-img">
+       <img src="img/c4.jpg" alt="">
+      </div>
+      <h3>Residente Evil</h3>
+
+    </div>
+      <div class="swiper-slide box2">
+      <div class="box-img">
+        <img src="img/c5.jpg" alt="">
+          </div>
+        <h3>As Crônicas de Nárnia</h3>
+        </div>
+      <div class="swiper-slide box2">
+        <div class="box-img">
+     <img src="img/interestelar.jpg" alt="">
+       </div>
+        <h3>Interestelar</h3>
+       </div>
+      <div class="swiper-slide box2">
+        <div class="box-img">
+     <img src="img/EB1.jpg" alt="">
+       </div>
+        <h3>Nefarious</h3>
+       </div>
+    </div>
+    </div>
+   </section>
+    
+   <section class="infos area-5" id="infos">
+     <h4 class="i-movies">Receba recomendações de filmes</h4>
+     <form action="">
+        <input type="email" placeholder="Digite seu email..." required class="email">
+        <input type="submit" value="Inscreva-se" class="submit">
+     </form>
+   </section>
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
